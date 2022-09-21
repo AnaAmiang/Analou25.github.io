@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    scroll-behavior: smooth;
+}
+body {
+    height: 100%;
+    background-color: #fbc4ab;
+}
+.navbar {
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    position: sticky;
+    background-color: #f4978e;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    
+}
+.navbar .logo h1 {
+    color:black;
+    background-color: transparent;
+  
+}
+.navbar  span {
+    color: black;
+    background-color: transparent;
+    padding-bottom: 1px;
+}
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a {
+    display: block;
+    margin-left: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.navbar .menu li a:hover {
+    border-bottom: 4px solid black;
+    transition: 0.5s;
+
+}
+.navbar .menu li a i {
+    color: black;
+
+}
+.login-btn {
+    color: black !important;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 6px 7px;
+    background-color: #ffc09f;
+    font-weight: bold !important;
+}
+ 
+
+.sign-up {
+    width: 400px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    background: #f4978e;
+    padding: 50px;
+    margin: 15% auto 0;
+    text-align: center;
+}
+.sign-up h1{
+     color: black;
+     margin-bottom: 25px;
+     
+}
+.input-box {
+    border-radius: 30px;
+    padding: 15px;
+    margin: 15px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+button {
+    color:black;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    outline: none; 
+    cursor: pointer;
+}
+button a {
+    color: black;
+}
+.check {
+    cursor: pointer;
+}
+.sign {
+    background-color:#fbc4ab;
+}
+.sign:hover {
+    color: pink;
+}
+.sign-with {
+    background-color:#fbc4ab;
+
+}
+.sign-with:hover {
+    color: pink;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    color:yellow;
+}
+hr {
+    margin-top: 20px;
+    width: 100%;
+}
+.or {
+    background-color: black;
+    width: 30px;
+    margin: -12px auto 10px;
+    color: white;
+}
+
+img {
+    width: 100px;
+    margin-top: -80px;
+}
